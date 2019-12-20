@@ -12,9 +12,7 @@
   },
   "keywords": [
     "LMS",
-    "Logitech",
-    "Media",
-    "Server",
+    "Logitech Media Server",
     "Squeezebox"
   ],
   "author": "breakthestatic",
@@ -22,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/breakthestatic/squeezy/issues"
   },
-  "homepage": "https://github.com/breakthestatic/squeezy#readme"
+  "homepage": "https://github.com/breakthestatic/squeezy#readme",
+  "dependencies": {
+    "ask-sdk-core": "^2.0.0",
+    "ask-sdk-dynamodb-persistence-adapter": "^2.5.2",
+    "ask-sdk-model": "^1.0.0",
+    "fuse.js": "^3.4.4",
+    "jayson": "^2.1.2",
+    "lodash": "^4.17.15"
+  }
 }
